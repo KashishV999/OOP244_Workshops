@@ -1,0 +1,11 @@
+In Workshop 9, I learned a lot about derived classes and managing resources. I worked on creating two classes: Text and HtmlText. The Text class loads a file's content into memory and displays it, while the HtmlText class extends Text to format the content in HTML.
+
+Creating the Text class taught me the importance of handling dynamic memory. I learned about the rule of three, which includes the copy constructor, copy assignment operator, and destructor. These help prevent memory leaks and ensure proper resource management. At first, it was confusing, but with practice, I got the hang of it.
+
+The HtmlText class was fun because I had to convert plain text to HTML. This meant replacing certain characters with HTML entities and handling multiple spaces correctly. It was interesting to see how text could be transformed into a simple HTML format.
+
+I faced some challenges, especially with debugging memory leaks. Using valgrind was new to me, but it provided detailed reports that helped me find and fix issues in my code. This experience was valuable in improving my debugging skills.
+
+Overall, this workshop helped me understand derived classes, dynamic memory, and the rule of three. I also got to use practical tools like valgrind for checking memory leaks. Even though it was challenging, finishing the workshop gave me a sense of achievement and confidence in tackling more complex C++ tasks.
+
+This workshop not only taught me technical skills but also made me more confident in my coding abilities. It was a rewarding experience that I will build on in future projects

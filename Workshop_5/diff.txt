@@ -1,0 +1,14 @@
+In line number 91 of your output:
+The output should be:
+|001| 88888 |         0.00 |
+      ^
+But your output is: 
+|001|  NEW  |         0.00 |
+      ^
+
+Unmatched character details:
+The character in column 7 is supposed to be:
+  [8] ASCII code(56)
+but you printed
+  [Space] ASCII code(32)
+

@@ -1,0 +1,82 @@
+Script started on Sat 20 Jul 2024 08:46:59 PM EDT
+==134910== Memcheck, a memory error detector
+==134910== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==134910== Using Valgrind-3.21.0 and LibVEX; rerun with -h for copyright info
+==134910== Command: ws.exe
+==134910== 
+Nothing should be printed between these two lines
+------------------------------------
+------------------------------------
+Separator
+==================================================
++----------------------------+
+|Container                   |
+|                            |
+|                            |
++----------------------------+
+Enter the following:
+>Line two,40<ETNER>
+>Line two,40
+The following outputs should be the same
+The correct output:
+Line two
+========================================
+Your output:
+Line two
+========================================
+Enter the following:
+>A 50 by 4 frame to be printed on screen,50,4<ETNER>
+>A 50 by 4 frame to be printed on screen,50,4
+The following outputs should be the same
+The correct output:
++------------------------------------------------+
+| A 50 by 4 frame to be printed on screen        |
+|                                                |
++------------------------------------------------+
+Your output:
++------------------------------------------------+
+|A 50 by 4 frame to be printed on screen         |
+|                                                |
++------------------------------------------------+
+printing Line and Rectangle using Shape pointers: 
+Line two
+========================================
++------------------------------------------------+
+|A 50 by 4 frame to be printed on screen         |
+|                                                |
++------------------------------------------------+
+Reading the data from a file
+line one
+==========
+line two
+==============================
+line three
+==================================================
+line four
+======================================================================
++-------------+
+|Step four    |
+|             |
++-------------+
++-----------------------+
+|Step three             |
+|                       |
++-----------------------+
++---------------------------------+
+|Step two                         |
+|                                 |
++---------------------------------+
++-------------------------------------------+
+|Step one                                   |
+|                                           |
++-------------------------------------------+
+==134910== 
+==134910== HEAP SUMMARY:
+==134910==     in use at exit: 0 bytes in 0 blocks
+==134910==   total heap usage: 45 allocs, 45 frees, 82,546 bytes allocated
+==134910== 
+==134910== All heap blocks were freed -- no leaks are possible
+==134910== 
+==134910== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sat 20 Jul 2024 08:48:08 PM EDT

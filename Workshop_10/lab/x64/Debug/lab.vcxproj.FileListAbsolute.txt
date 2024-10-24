@@ -1,0 +1,2 @@
+C:\Users\prajv\Downloads\OOP-Workshops-main\OOP-Workshops-main\WS10\lab\x64\Debug\lab.exe
+D:\OOP\oop_workshops\WS10\lab\x64\Debug\lab.exe

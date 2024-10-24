@@ -1,0 +1,31 @@
+
+In this workshop, I delved into the world of templates by implementing the searchNlist module. This module required creating and understanding function templates,
+a critical aspect of C++ programming.
+First, I worked on the search function template. This function accepts a reference to a Collection of templated objects, an array of templated objects, the number 
+of elements in the array, and a key value to search for. The function searches through the array, checking for matches with the key using the == operator, and 
+adds any matches to the Collection. This taught me the importance of documenting type requirements for templates:
+
+// T1 -> Car, Employees
+// T2: int, char, double
+// Requirements for T1:
+//   - Must have a copy constructor.
+//   - Must have a copy assignment operator.
+//   - Must have the "==" operator defined to compare objects.
+// Requirements for T2:
+//   - Must be a type that can be compared using the "==" operator.
+template <typename T1, typename T2>
+bool search(Collection<T1>& tempObj, T1 array[], int arraySize, T2 key) {
+
+Next, I created the listArrayElements function template. This function prints a title and lists all elements of an array, enhancing my understanding of how
+templates can streamline repetitive tasks. Here's the documentation for the function:
+
+// Requirements for T:
+//   - Must have the "<<" operator defined to be stream insertable.
+template <typename T>
+void listArrayElements(const char* title, const T array[], int arraySize) {
+
+Modifying the main module was another significant part of this workshop. I updated the main module to use the search function as the condition for if statements
+ and called listArrayElements to list array elements at key points. This integration improved the overall readability and functionality of the code.
+
+Overall, this workshop deepened my understanding of templates, showcasing their power and flexibility in creating generic, reusable functions.
+ This experience has significantly strengthened my programming skills and prepared me for more complex coding challenges.
